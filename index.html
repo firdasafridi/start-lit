@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+  <style>
+    .elements-demo {
+      max-width: 800px;
+      margin: 24px auto;
+    }
+
+    .elements-demo>div>*:not(strong) {
+      display: block;
+      border: 1px solid black;
+      padding: 8px;
+      margin: 8px 0;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="elements-demo">
+    <h1>Creating lit-html</h1>
+
+    <div>
+      <strong>Define a basic LitElement:</strong>
+      <x-creating></x-creating>
+    </div>
+  </div>
+
+  <div class="elements-demo">
+    <h1>Properties lit-element</h1>
+
+    <div>
+      <strong>Define properties LitElement:</strong>
+      <x-properties></x-properties>
+    </div>
+  </div>
+
+  <div class="elements-demo">
+    <h1>Logic lit-element</h1>
+
+    <div>
+      <strong>Define logic LitElement:</strong>
+      <x-logic></x-logic>
+    </div>
+  </div>
+
+  <div class="elements-demo">
+    <h1>Event Handler lit-element</h1>
+
+    <div>
+      <strong>Define event handler LitElement:</strong>
+      <x-handler></x-handler>
+    </div>
+  </div>
+
+  <div class="elements-demo">
+    <h1>Styles lit-element</h1>
+
+    <div>
+      <strong>Define Styles LitElement:</strong>
+      <x-styles></x-styles>
+    </div>
+  </div>
+
+  <script type="module" src="./src/creating.js"></script>
+  <script type="module" src="./src/properties.js"></script>
+  <script type="module" src="./src/logic.js"></script>
+  <script type="module" src="./src/handler.js"></script>
+  <script type="module" src="./src/styles.js"></script>
+</body>
+
+</html>
