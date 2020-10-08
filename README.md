@@ -1,8 +1,22 @@
 # start-lit
-Start lit-html &amp; lit-element
+A simple code to understant lit-element & lit html
 
 
-# start polymer-cli
+
+
+## Quick start
+```
 npm install -g polymer-cli
-node i
+git clone https://github.com/PolymerLabs/start-lit-element
+npm install
 polymer serve
+```
+
+## How to:
+Checkout branch to:
+- learn/1_creating
+- learn/2_properties
+- learn/3_logic
+- learn/4_handler
+- learn/5_styles
+- final/covid
