@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+  <style>
+    .elements-demo {
+      max-width: 800px;
+      margin: 24px auto;
+    }
+
+    .elements-demo>div>*:not(strong) {
+      display: block;
+      border: 1px solid black;
+      padding: 8px;
+      margin: 8px 0;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="elements-demo">
+    <h1>Creating js</h1>
+
+    <div>
+      <strong>Define a basic LitElement:</strong>
+      <x-creating></x-creating>
+    </div>
+  </div>
+
+  <script type="module" src="./src/creating.js"></script>
+</body>
+
+</html>
